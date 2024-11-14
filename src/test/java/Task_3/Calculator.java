@@ -24,6 +24,8 @@ public class Calculator {
                 System.out.println("შედეგი: " + (num1 * num2));
             } else if (moqmedeba.equals("/")) {
                 System.out.println("შედეგი: " + num1 / num2);
+            }else {
+                System.out.println("ასეთი მოქმედება არ არსებობ!");
             }
         }catch (RuntimeException e) {
             System.out.println(e.getMessage());
